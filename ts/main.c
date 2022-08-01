@@ -32,11 +32,12 @@ int main(int argc, char** argv) {
 void usage(const char* program_name) {
   printf("[%s] convert timestamp and print.\n", program_name);
   printf("\n");
-  printf("%s              show current timestamp\n", program_name);
-  printf("%s timestamp    try to format string `timestamp` into `time`, and print time\n", program_name);
+  printf("Usage:\n");
+  printf("\t%s              show current timestamp\n", program_name);
+  printf("\t%s timestamp    try to format string `timestamp` into `time`, and print time\n", program_name);
   printf("\n");
   printf("example:\n");
-  printf("\t %s 1659339930000\n", program_name);
+  printf("\t%s 1659339930000\n", program_name);
 
   return;
 }
